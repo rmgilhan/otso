@@ -10,7 +10,7 @@ export function UserProvider({ children }) {
   const refreshCartCount = async () => {
     if (user.id && !user.isAdmin){
         try {
-          const response = await fetch('http://ec2-3-143-236-183.us-east-2.compute.amazonaws.com/b3/cart', {
+          const response = await fetch('https://ecom-backend-wxa3.onrender.com/b3/cart', {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
