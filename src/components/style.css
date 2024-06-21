@@ -1,0 +1,14 @@
+.fixed-dimension {
+  width: 250px !important;  /* Set your desired width */
+  height: 200px !important; /* Set your desired height */
+  object-fit: cover; /* Maintain aspect ratio, cover the area */
+/*  margin: 0.2rem;*/
+/*  margin-bottom: 0.2rem;*/
+}
+.card-font{
+	font-size: 0.8rem !important;
+	text-align: center;
+	margin-top: -10px;
+	font-weight: 400 !important;
+}
+

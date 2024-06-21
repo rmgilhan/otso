@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*  color: #007B43 !important;*/
+}
+.cardHighlights{
+
+  min-height: 100%;
+
+}
+body {
+    background-color: #F2F2F2 !important; /* Change the color code as needed */
+}
+.bg-footer{
+  background-color: #f0f0f0 !important;
+}
+.mb-8{
+  margin-bottom: 8rem !important;
+}
+.ms-12{
+  margin-left: 12rem;
+}
+.mb-5{
+  margin-bottom: 5rem !important;
+}
+.cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3em 0.6em;
+  font-size: 0.75em;
+}
+.w-40{
+  width: 40%;
+}
+.accent{
+  color: #FFD700 !important;
+}
+.accent-2{
+  background: radial-gradient(circle, #FFD700, green);
+}
+.second{
+  color: #007B43 !important;
+}
+.third{
+  background-color: #E5CF1F !important;
+}
+.admin-header{
+  background-color: #007B43;
+}
+Table {
+      width: 100%;
+      border-collapse: collapse !important;
+    }
+Table, td {
+      border: 1px solid gray !important;
+    }
+Table th{
+  background-color: #008B43 !important;
+  border: 1px solid white !important;
+}
+Table thead tr th{
+  color: white !important;
+  font-size: 0.8rem;
+}
+Table tr td{
+  color: green !important;
+}
+Table tr:nth-child(even) {
+  background-color: beige !important;
+}
+Table tr:nth-child(odd) {
+  background-color: gray !important; /* or any other color */
+}
+
+.custom-checkbox input[type="checkbox"] {
+    background-color: #CCC; /* Background color when unchecked */
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+    background-color: #007B43; /* Background color when checked */
+}
+.fs-12{
+  font-size: 5em;
+}
+.fs-9{
+  overflow: visible;
+  margin-top: -3.5rem;
+  margin-left: 4.5rem;
+}
+.fs-8{
+  white-space: nowrap;
+  overflow: visible;
+  position: absolute;
+  margin-top: -2.2rem;
+  margin-left: 3rem;
+  font-size: 3rem;
+  padding:0;
+}
+.light-shadow {
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+.heavy-shadow {
+  text-shadow: 5px 4px 6px rgba(0, 0, 0, 0.7);
+}
+.meduim-shadow {
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.bordered-image {
+    border: 2px solid #DFDFDF; /* Adjust the border size and color as needed */
+}
